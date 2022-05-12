@@ -1,0 +1,10 @@
+type User {
+ username: String!
+ email: String!
+ roles: [Role]!
+}
+
+type Role {
+ name: String!
+ users: [User]!
+}
